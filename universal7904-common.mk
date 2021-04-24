@@ -18,6 +18,7 @@ PRODUCT_PACKAGES += \
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Init scripts
 PRODUCT_PACKAGES += \
@@ -80,16 +81,16 @@ PRODUCT_SOONG_NAMESPACES += \
 -include $(LOCAL_PATH)/product_prop.mk
 
 # FastCharge
-PRODUCT_PACKAGES += \
-    lineage.fastcharge@1.0-service.samsung
+#PRODUCT_PACKAGES += \
+#    lineage.fastcharge@1.0-service.samsung
 
 # Trust HAL
-PRODUCT_PACKAGES += \
-    lineage.trust@1.0-service
+#PRODUCT_PACKAGES += \
+#    lineage.trust@1.0-service
 
 # Touch
-PRODUCT_PACKAGES += \
-    lineage.touch@1.0-service.samsung
+#PRODUCT_PACKAGES += \
+#    lineage.touch@1.0-service.samsung
 
 # Wifi
 PRODUCT_PACKAGES += \
