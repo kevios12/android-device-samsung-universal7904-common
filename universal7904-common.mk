@@ -80,18 +80,6 @@ PRODUCT_SOONG_NAMESPACES += \
 # System properties
 -include $(LOCAL_PATH)/product_prop.mk
 
-# FastCharge
-#PRODUCT_PACKAGES += \
-#    lineage.fastcharge@1.0-service.samsung
-
-# Trust HAL
-#PRODUCT_PACKAGES += \
-#    lineage.trust@1.0-service
-
-# Touch
-#PRODUCT_PACKAGES += \
-#    lineage.touch@1.0-service.samsung
-
 # Wifi
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
