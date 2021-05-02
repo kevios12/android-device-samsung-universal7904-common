@@ -61,10 +61,6 @@ PRODUCT_PACKAGES += \
     fastbootd \
     init.recovery.exynos7904.rc
 
-# SamsungDoze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl.samsung-universal7904
