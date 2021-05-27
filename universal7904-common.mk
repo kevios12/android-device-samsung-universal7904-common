@@ -89,8 +89,8 @@ PRODUCT_SOONG_NAMESPACES += \
 #    lineage.trust@1.0-service
 
 # Touch
-#PRODUCT_PACKAGES += \
-#    lineage.touch@1.0-service.samsung
+PRODUCT_PACKAGES += \
+    lineage.touch@1.0-service.samsung
 
 # Wifi
 PRODUCT_PACKAGES += \
