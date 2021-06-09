@@ -44,6 +44,11 @@ int main() {
         goto shutdown;
     }
 
+    status = power->ILineagePower::registerAsService();
+    if (status != OK) {
+        LOG(ERROR) << "Could not register service (ILineagePower) for Power HAL";
+        goto shutdown;
+    }
 
     LOG(INFO) << "Power HAL service is Ready.";
     joinRpcThreadpool();
